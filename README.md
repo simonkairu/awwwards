@@ -45,3 +45,6 @@ To get the code..
 5. Launch the application locally by running the command **`python3.8 manage.py runserver`** and copying the link given on the termnal on your browser.
     - To upload photos as admin, run the command  **`python3.8 manage.py createsuperuser`** to create an admin account in order to post. Access to the admin panel is by adding the path /admin to the address bar.
 6. Run tests by running the command **`python3.8 manage.py test awwwards`**
+
+## Known Bugs
+There are no known bugs so far  
