@@ -48,3 +48,10 @@ To get the code..
 
 ## Known Bugs
 There are no known bugs so far  
+
+## Technologies Used  
+* Python v3.8  
+* HTML
+* Bootstrap
+* Django  
+* Postgres  
