@@ -25,3 +25,23 @@ You need the following to start working on this project: On your local system;
 2. Django
 3. Virtual Environment(venv)
 4. A text editor
+
+## Development Installation
+
+To get the code..
+
+1. Clone the repository:
+ `git clone  https://github.com/simonkairu/awwwards.git`
+
+2. Move to the folder and install requirements
+ ` cd awwwards-`
+
+3. In the projects root directory, install the virtualenv library using pip and create a virtual environment. Run the following commands respectively:
+    - **`pip install virtualenv`**
+    - **`virtualenv venv`**
+    - **`. venv/bin/activate`**
+        * Note that you can exit the virtual environment by running the command **`deactivate`**
+4. Download the all dependencies in the requirements.txt using **`pip install -r requirements.txt`**
+5. Launch the application locally by running the command **`python3.8 manage.py runserver`** and copying the link given on the termnal on your browser.
+    - To upload photos as admin, run the command  **`python3.8 manage.py createsuperuser`** to create an admin account in order to post. Access to the admin panel is by adding the path /admin to the address bar.
+6. Run tests by running the command **`python3.8 manage.py test awwwards`**
